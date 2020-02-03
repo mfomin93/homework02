@@ -4,17 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Mark Fomin's Portfolio Website</title>
-    <link rel="stylesheet" href="/unc-ccc-fsf-pt-01-2020-u-c/02-CSS-Bootstrap/02-Homework/contact.html">
+    <link rel="icon" href="Assets/Images/favicon.jpeg">
+    <title>Mark Fomin's Portfolio</title>
+    <link rel="stylesheet" href="contact.html">
     <link rel="stlesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="widescreen.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
 <style>
+.footer {
+  text-align: right;
+}
+
   /*Fixing the images to 600x200 resolution*/
 img {
   max-width: 600px;
@@ -31,27 +37,28 @@ background-repeat: no-repeat;
 
 <body>
   <!--This is the nav bar. The same code is used across all associated html pages.-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html">Mark Fomin</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-          </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="file:///Users/markfomin/unc-ccc-fsf-pt-01-2020-u-c/02-CSS-Bootstrap/02-Homework/portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-          
-          </form>
-      </nav>
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Mark Fomin</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+      </ul>    
+      </form>
+  </nav>
+
       <!--Jumbotron of name and title with a link to the contact html-->
       <div class="jumbotron">
       <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
@@ -64,21 +71,22 @@ background-repeat: no-repeat;
 <!--Carosel with images and description of each programming language experience example.-->
 <div class="card-group">
   <div class="card">
-    <img src="Assets/Images/programming1.png" class="card-img-top" alt="...">
+    <img src="Assets/Images/programming1.png" class="card-img-top" alt="Programming Picture 1">
     <div class="card-body">
       <h5 class="card-title">HTML</h5>
       <p class="card-text">Deep knowledge of HTML.</p>
     </div>
   </div>
   <div class="card">
-    <img src="Assets/Images/programming2.png" class="card-img-top" alt="...">
+    <img src="Assets/Images/programming2.png" class="card-img-top" alt="Programming Picture 2">
     <div class="card-body">
       <h5 class="card-title">CSS</h5>
       <p class="card-text">Exceptional CSS abilities and creativty.</p>
     </div>
   </div>
+
   <div class="card">
-    <img src="Assets/Images/programming3.jpg" class="card-img-top" alt="...">
+    <img src="Assets/Images/programming3.jpg" class="card-img-top" alt="Programming Picture 3">
     <div class="card-body">
       <h5 class="card-title">Javascript</h5>
       <p class="card-text">Javascript education in progress.</p>
@@ -88,7 +96,7 @@ background-repeat: no-repeat;
 
 <footer class="footer">
   <div class="container">
-    <span class="text-muted">Mark Fomin</span>
+    <span class="text-muted">	&copy; Mark Fomin</span>
   </div>
 </footer>
 
