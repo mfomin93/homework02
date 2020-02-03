@@ -14,11 +14,10 @@
 integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-
 <style>
-  /*Fixing the images to 200x200 resolution*/
+  /*Fixing the images to 600x200 resolution*/
 img {
-  max-width: 200px;
+  max-width: 600px;
   max-height: 200px;
 }
 /*Background image for jumbotron*/
@@ -27,65 +26,72 @@ background: url("Assets/Images/contactjumbo.jpg");
 background-repeat: no-repeat;
   background-size: 1900px 390px;
 }
-
 </style>
-
 </head>
 
 <body>
   <!--This is the nav bar. The same code is used across all associated html pages.-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="file:///Users/markfomin/unc-ccc-fsf-pt-01-2020-u-c/02-CSS-Bootstrap/02-Homework/index.html">Mark Fomin</a>
+        <a class="navbar-brand" href="index.html">Mark Fomin</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
             </li>
+          </li>
             <li class="nav-item">
-              <a class="nav-link" href="file:///Users/markfomin/unc-ccc-fsf-pt-01-2020-u-c/02-CSS-Bootstrap/02-Homework/contact.html">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="file:///Users/markfomin/unc-ccc-fsf-pt-01-2020-u-c/02-CSS-Bootstrap/02-Homework/portfolio.html">Portfolio</a>
             </li>
           </ul>
+          
           </form>
       </nav>
       <!--Jumbotron of name and title with a link to the contact html-->
       <div class="jumbotron">
       <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
         <div class="col-md-6 px-0">
-          <h1 class="display-6 font-italic">Welcome to Mark Fomin's Portfolio.</h1>
-          <p class="lead my-1">Feel free to contact me by clicking the link below.</p>
+          <h1 class="display-6">Welcome to Mark Fomin's Portfolio.</h1>
+          <p class="lead my-1 font-italic">- Aspiring Web Programmer and Full Stack Developer</p>
         </div>
       </div>
     </div>
 <!--Carosel with images and description of each programming language experience example.-->
 <div class="card-group">
   <div class="card">
-    <img src="Assets/Images/html.png" class="card-img-top" alt="...">
+    <img src="Assets/Images/programming1.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">HTML</h5>
       <p class="card-text">Deep knowledge of HTML.</p>
     </div>
   </div>
   <div class="card">
-    <img src="Assets/Images/css.png" class="card-img-top" alt="...">
+    <img src="Assets/Images/programming2.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">CSS</h5>
       <p class="card-text">Exceptional CSS abilities and creativty.</p>
     </div>
   </div>
   <div class="card">
-    <img src="Assets/Images/js.png" class="card-img-top" alt="...">
+    <img src="Assets/Images/programming3.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Javascript</h5>
       <p class="card-text">Javascript education in progress.</p>
     </div>
   </div>
 </div>
+
+<footer class="footer">
+  <div class="container">
+    <span class="text-muted">Mark Fomin</span>
+  </div>
+</footer>
+
 </body>
 
 </html>
